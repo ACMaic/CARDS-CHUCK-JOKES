@@ -3,9 +3,9 @@
     <v-card class="mx-auto" max-width="500" hover>
       <v-card-text>
          <v-container>
-               <v-col v-for="(joke, index) in favorites" :key="index">
+               <v-col class="mx-auto my-8" elevation="16" max-width="344" v-for="(joke, index) in favorites" :key="index">
                  <v-card>
-                   <v-card-text>
+                   <v-card-text class="text-h5 py-2">
                     {{ joke.value }}
                    </v-card-text>
                  </v-card>

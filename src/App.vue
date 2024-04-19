@@ -6,8 +6,8 @@
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" temporary>
-      <v-list>
-        <v-list-item v-for="(menu, index) in routes" :key="index" :to="menu.route" :title="menu.name">
+      <v-list >
+        <v-list-item v-for="(menu, index) in routes" :key="index" :to="menu.route" :title="menu.name" >
           <v-list-item-icon>
             <v-icon class="icon-right">{{ menu.icon }}</v-icon>
           </v-list-item-icon>
