@@ -17,6 +17,7 @@
 
     <v-main class="bg-grey-lighten-2">
       <v-container>
+
         <v-row>
           <router-view></router-view>
         </v-row>
@@ -37,7 +38,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
 .icon-right {
   margin-left: auto;
 }
